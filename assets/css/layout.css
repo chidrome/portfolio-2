@@ -536,9 +536,18 @@ button,
       background-position: center center;
     }
 
-    #main > section.one {
+    /* #main > section.one {
       background-color: #81918E;
       background-image: url("../../images/seattle-sky-line.jpeg");
+    } */
+
+    video {
+      z-index: -100;
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-height: 100%;
+      min-width: 100%;
     }
 
     #main > section.two {
@@ -601,7 +610,7 @@ button,
 
 /* Narrow */
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
+@media screen and (min-width: 767px) and (max-width: 1320px) {
 
   /* Basic */
 
@@ -672,7 +681,7 @@ button,
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 767px) {
 
   /* Basic */
 
